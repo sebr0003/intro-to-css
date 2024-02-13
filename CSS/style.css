@@ -1,0 +1,81 @@
+/* Select body
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+line-height: 1.5;
+margin: 0;
+background-color: #7251B5;
+Select h1, h2 and h3
+margin-bottom: 0;
+Select the id company-name
+font-size: 1.5rem;
+Select header and footer
+background-color: #000;
+color: #DEC9E9;
+Select the class wrapper
+max-width: 940px;
+margin: 0 auto;
+padding: 2em;
+Select both list types
+padding: 0;
+list-style: none;
+Use descendant selector to select the links within the navigation
+color: #DEC9E9;
+text-decoration: none;
+Use an adjacent selector to target the section immediately beside the section with id #intro
+background-color: #000;
+color: #DEC9E9;
+Use a child selector to target the img tag directly with the article tags
+width: 150px;
+border-radius: 50%;
+filter: grayscale(100%);
+margin-top: 1em;
+Select every even numbered li within the ordered list
+color: #dc33dc;
+Use a child selector to target the img tag directly with the main element 
+width: 100%; */
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    background-color: #7251B5;
+}
+
+
+h1, h2, h3 {
+    margin-bottom: 0;
+}
+
+
+#company-name {
+    font-size: 1.5rem;
+}
+
+header {
+    background-color: #000;
+    color: #DEC9E9;
+
+}
+footer {
+    background-color: #000;
+    color: #DEC9E9;
+}
+
+
+.wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+ol {
+    padding: 0;
+    list-style: none;
+}
+
+
+
