@@ -77,5 +77,27 @@ ol {
     list-style: none;
 }
 
+nav a {
+    color: #DEC9E9;
+    text-decoration: none ;
+}
 
+#intro + section {
+    background-color: #000;
+    color: #DEC9E9;
+}
 
+article > img {
+width: 150px;
+border-radius: 50%;
+filter: grayscale(100%);
+margin-top: 1em;
+}
+
+ol li:nth-child(even) {
+    color: #dc33dc;
+}
+
+main > img {
+    width: 100%;
+}
